@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    background-color: #ffffff;
+}
+
+header {
+    z-index: 10;
+}
+
+.navbar {
+      display: flex;
+      height: 80px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0px 0px 60px rgb(252, 147, 0);
+      align-items: center;}
+      
+.logot{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+.logot span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Catshop{
+    color: #eea111;
+    font-size: x-large;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list_itens {
+    list-style: none;
+}
+
+.nav-list_itens a {
+    text-decoration: none;
+}
+ 
+.Catshop{
+    gap: 35px;
+}
+.img{
+    width: 100px;
+    height: 80px;
+}
+
+
+.texto{
+    position: absolute;
+    color: #ff4800;
+    font-size: larger;
+    right: 8%;
+}
+
+main {
+    margin-left: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img2{
+    width: 450px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+}
+.img3{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 2%;
+}
+.texto2{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    font-size: 280%;
+    color: #ff4800;
+}
+
+.texto4{
+    font-size: 170%;
+    margin-top: 2%;
+}
+.texto5{
+    font-size: 170%;
+   
+}
+
+
+.container-laranja{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    background-color: #eea111;
+    gap: 40px;
+}
+
+.fotado{
+    height: 180px;
+    width: 200px;
+}
+
+.div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.letras{
+    background-color: #eea111;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.eu{
+    width: 50%;
+    height: 25%;
+    margin-top: 5%;
+    gap: 3%;
+}
+section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.fotog{
+    display: flex;
+    justify-content: center;
+    color: #ff4800;
+    background-color:#ffffff;
+    margin-top: 5%;
+    font-size: 650%;
+}
+.container-branco{
+    margin-top: 5% ;
+    margin-bottom: 7%;
+}
+
+.container-branco2{
+    width: 70%;
+    margin-top: 5%;
+    display: flex;
+    margin-left: 15%;
+}
+
+.filhoga{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.gatoga{
+    width:100%;
+    height: 100%;
+
+}
+
+.container-branco3{
+    width: 100%;
+    height: 70%;
+}
+
+.container-laranja2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eea111;
+    gap: 40px;
+    margin-top: 10%;
+    padding-bottom: 100px;
+}
+
+.tudo{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    background-color: transparent;
+}
+
+.comen{
+    display: flex;
+    color: #ffffff;
+    background-color: #eea111;
+    margin-top: 5%;
+    font-size: 650%;
+}
+
+
+.fodotario{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.names{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eea111;
+    display: flex;
+    font-size: large;
+}
+
+
+.texti{
+    font-size: large;
+    opacity: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.tarios{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    align-items: center;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+
+.tarinhos{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin-top: 12px;
+    width: 90%;
+}
+
+
+
+.fotex{
+    display: flex;
+    flex-direction: row;
+}
+
+.comentar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.buton{
+    color: white;
+    background-color: #eea111;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.textis{
+    font-size: x-large;
+    opacity: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.namess{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #eea111;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.cadastro{
+    font-family: sans-serif;
+    color: #ff4800;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+.cadastrototal{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 3%;
+    height: fit-content;
+    border-radius: 6%;
+}
+
+.nodoco{
+     color: #ff4800;
+    border: #eea111;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: larger;
+}
+
+input[type=submit]{
+    color: #eea111;
+    border: #ff4800;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid #eea111;
+}
+
+input::placeholder{
+    color: #ff4800;
+    opacity: 40%;
+}
+
+.nodoco2{
+    color: #ff4800;
+}
+
+.butonn{
+    color: white;
+    background-color: #eea111;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    border-radius: 30px;
+}
+
+
+
+    @keyframes rotate{
+    0% {
+        transform: rotate(0);
+        right: 0;
+    }
+    50% {
+        background-color: rgb(255, 123, 0);
+    }
+    100% {
+        transform: rotate(180deg);
+        background-color: rgb(255, 102, 0);
+        right: calc(100vw / 2 - 80px);
+
+    }
+}
+
+
+.bolinha {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: rgb(255, 242, 0);
+    position: relative;
+    margin-right: 17%;
+}
+
+.bolinha:hover{
+    animation: rotate 8s 1 normal ease;
+}
+
+.container-branco4{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 30px;
+}
+
+.jogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eea111;
+    margin-top: 5%;
+    font-size: 650%;
+}
+
+.paidasbola{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.like{
+    display: flex;
+    color: #ffffff;
+    background-color: #eea111;
+    font-size: 250%;
+}
+
+.insta{
+    border-radius: 89px;
+    width: 80px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+    background-color: #eea111;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta lang="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catshop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https:/fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+         
+                    <img class="img" src="data:image/png;base64,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" alt="Logomarca da empresa">
+                    <span class=" Catshop">Catshop</span>
+                    <text class="texto">Seja feliz adote um gato</text>
+                    <img class="img3" src="https://cdn.pixabay.com/photo/2014/03/25/16/24/paw-296964_1280.png">
+    </header>
+<section class="container-branco">
+<main> 
+    <text class="texto2"> Você sabia que ter um gato previne ataque cardiaco?</text>
+    <text class="texto4">Pessoas que têm um felino em casa têm até 30% menos risco de ataques cardíacos. </text>
+    <text class="texto5"> Os defensores dos cãezinhos, no entanto, não precisam ficar chateados. Os cientistas acreditam que, apesar de seus resultados não mostrarem o mesmo efeito entre donos de cachorros, eles também devem colaborar para a saúde. Eles afirmam que provavelmente havia menos pessoas com cães do que com gatos entre os participantes do estudo, por razões estatísticas. 
+        Trabalhos anteriores já tinham indicado que passar apenas 12 minutos com um cão melhorava a função cardíaca e pulmonar de pessoas com problemas no coração.
+    Os resultados foram apresentados durante a Conferência Internacional sobre Infarto da Associação    Americana de Infarto, em Nova Orleans. Ao todo, 4.435 americanos, com idades entre 30 e 75 anos, foram acompanhados. Segundo os dados, 2.435 eram donos de gatos, ou tinham tido um felino no passado.
+</main>
+<img class="eu" src="eu.jpg">
+</section>
+<section class="container-laranja">
+    <div class="div">
+        <a href="http://gatopoles.com.br/adocao.php">  <img  src="gato.jpg" class="fotado"> </a>
+        <p class="letras"><br>Adotar</p>
+    </div>
+    <div class="div">
+        <a href="https://www.petz.com.br/?msclkid=a005e822e9e2174b293b8cb8e5973e00&utm_source=bing&utm_medium=cpc&utm_campaign=%5Bp%5D%5Bcf%5D%5Dsearch%5B%5Bcf%5D%5Br%5D%5Dbr%5B%5Br%5D%5Bbr%5D%5Dpetz%5B%5Bbr%5D%5Bbt%5D%5Dmcpc%5B%5Bbt%5D%5Bmt%5D%5De%5B%5Bmt%5D&utm_term=petz&utm_content=%5Bp%5D%5Bcf%5D%5Dsearch%5B%5Bcf%5D%5Br%5D%5Dbr%5B%5Br%5D%5Bbr%5D%5Dpetz%5B%5Bbr%5D%5Bbt%5D%5Dmcpc%5B%5Bbt%5D%5Bmt%5D%5De%5B%5Bmt%5D">  
+        <img  src="carro.jpg" class="fotado"></a>
+        <p class="letras"><br>Compras</p>
+    </div>
+    <div class="div">
+        <a href="https://pixabay.com/pt/images/search/gatos/">
+        <img src="gatof.jpg" class="fotado"></a>
+        <p class="letras"><br>Fotos</p>
+    </div>
+</div>
+</section>
+
+    
+    <h1 class="fotog"> Galeria </h1>
+
+<section class="container-branco2">
+    <div class="filhoga">
+        <img class="gatoga"src="https://images.pexels.com/photos/1634838/pexels-photo-1634838.jpeg?auto=compress&cs=tinysrgb&w=600">
+    </div>
+    <div class="filhoga">
+        <img class="gatoga"src="https://images.pexels.com/photos/1907666/pexels-photo-1907666.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <img class="gatoga"src="https://images.pexels.com/photos/6865046/pexels-photo-6865046.jpeg?auto=compress&cs=tinysrgb&w=600">   
+    </div>
+    <div class="filhoga">
+        <img class="gatoga"src="https://images.pexels.com/photos/693651/pexels-photo-693651.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <img class="gatoga"src="https://images.pexels.com/photos/2646483/pexels-photo-2646483.jpeg?auto=compress&cs=tinysrgb&w=600">
+    </div>
+    <div class="filhoga">
+        <img class="gatoga"src="https://images.pexels.com/photos/9783907/pexels-photo-9783907.jpeg?auto=compress&cs=tinysrgb&w=600">
+    </div>
+</section>
+
+
+
+<section class="container-laranja2">
+    <h1 class="comen"> Comentários </h1>
+    <div class="tudo">
+
+    
+    <section class="tarios">
+        <div class="tarinhos">
+            <fieldset>
+            <div class="fotex">
+                <img class="fodotario" src="https://th.bing.com/th/id/OIP.j_eWpTRqrOOdRgcSmcQv0gAAAA?pid=ImgDet&rs=1" >
+                <texto class="names"> Louca dos gatos</texto>
+            </div>
+            <fieldset class="la">
+                <texto class="texti"> " Adotei um gatinho graças a uma reportagem que vi nesse site, mudoou minha vida agora tenho 3 gatinhos que são uns amores "</texto>
+            </fieldset>
+        </fieldset>
+        </div>
+        <div class="tarinhos">
+            <fieldset>
+            <div class="fotex">
+                <img class="fodotario" src="https://th.bing.com/th/id/OIP.DZqYU0jjPHtkZpmnAkdt8gHaHa?pid=ImgDet&w=199&h=199&c=7&dpr=1,3">
+                <texto class="names"> Felipe</texto>
+            </div>
+            <fieldset class="la">
+                <texto class="texti"> " Adotei um gatinho através desse site e foi ótimo, não paro de ver a galeria de fotos "</texto>
+            </fieldset>
+        </fieldset>
+         </div>
+         <div class="tarinhos">
+            <fieldset>
+            <div class="fotex">
+                <img class="fodotario" src="https://th.bing.com/th/id/OIP.NsMox_TpWK-giJ-Q1-HHjAAAAA?pid=ImgDet&w=199&h=199&c=7&dpr=1,3">
+                <texto class="names"> Tom</texto>
+            </div>
+            <fieldset class="la">
+                <texto class="texti"> " Amo ver as fotos e comprar ração por aqui, é muito prático "</texto>
+            </fieldset>
+        </fieldset>
+        </div> 
+        <div class="tarinhos">
+            <fieldset>
+            <div class="fotex">
+                <img class="fodotario" src="https://th.bing.com/th/id/OIP.Zwa8tbeKCs4l9LmOqVJOtAAAAA?pid=ImgDet&w=181&h=181&c=7&dpr=1,3">
+                <texto class="names"> Vovó do Tom</texto>
+            </div>
+            <fieldset class="la">
+                <texto class="texti"> " Gatos são bençãos "</texto>
+            </fieldset>
+        </div>
+
+        <div class="comentar">
+            <label class="namess" for="input">Comentar</label>
+            <input 
+            class="textis"
+            id="input"
+            name="comentarios"
+            type="text"
+            placeholder=" Escreva seu comentário..">
+        </div>
+        <button class="buton" type="submit">Enviar</button>
+    </section>    
+
+
+
+
+<form class="cadastrototal"  action="Cadastro">
+    <legend class="cadastro"> Cadastre-se agora:</legend>
+<div>
+    <label class="nodoco" for="input-nome">Nome:</label>
+    <input 
+    id="input-nome"
+    name= "nome"
+    type="text"
+    placeholder="Nome completo">
+</div>
+
+<div>
+    <label class="nodoco" for="input-cpf">CPF:</label>
+    <input 
+    id="input-cpf"
+    name="cpf"
+    type="number"
+    placeholder="000.000.000.00">
+</div>
+
+<div>
+    <label class="nodoco" for="input-endereco">Endereço</label>
+    <input 
+    id="input-endereco"
+    name="Endereco:"
+    type="city">
+</div>
+
+<div>
+    <label class="nodoco" for="input-email">Email:</label>
+    <input 
+    id="input-email"
+    name="email"
+    type="email"
+    placeholder="                 @gmail.com">
+</div>
+
+<div>
+    <label class="nodoco" for="input-senha">Senha:</label>
+    <input 
+    id="input-senha"
+    name="senha"
+    type="password"
+    placeholder="00000000">
+</div>
+
+<br>
+    <div>
+        <label class="nodoco2" for="imput_bacon">Salvar Login?</label>
+        <input name="bacon" type="checkbox">
+    </div>
+<br>
+
+<button class="butonn" type="submit">Enviar</button>
+</form>
+</div>
+</section>
+
+<section class="container-branco4">
+    <h1 class="jogo"> Leve a bola até o gato! </h1>
+    <div class="paidasbola">
+         <img class="img2" src="data:image/png;base64,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" alt="Logomarca da empresa">
+         <div class="bolinha"></div>
+        </div>
+</section>
+
+
+<section class="container-laranja2">
+    <h1 class="comen"> Gostou do nosso site? </h1>
+    <h2 class="like"> Aproveita e nos segue nas redes sociais!</h2>
+    <div class="redes">
+    <a class="insta" href="https://www.instagram.com/gatosgram/"><img class="insta" src="https://th.bing.com/th/id/OIP.JtmXSh_uyZBaTg1eXd-NtgHaHa?w=201&h=201&c=7&r=0&o=5&dpr=1.3&pid=1.7"></a>
+    <a class="insta" href="https://www.youtube.com/watch?v=xYthftJ8ZHM"><img class="insta" src="https://th.bing.com/th/id/OIP.hR6TQma4SWfP-yfQmT5oqgHaHa?w=181&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+    </a>
+    </div>
+    </section>
+</body>
+
